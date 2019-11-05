@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="3" parallel="tests" name="MySuite">
+  <test thread-count="3" parallel="tests" name="chrome">
+    <parameter name="browser" value="chrome"/>
+  </test> <!-- chrome -->
+  <test thread-count="3" parallel="tests" name="ie">
+    <parameter name="browser" value="ie"/>
+  </test> <!-- ie -->
+  <test thread-count="3" parallel="tests" name="firefox">
+    <parameter name="browser" value="firefox"/>
+  </test> <!-- firefox -->
+</suite> <!-- MySuite -->
